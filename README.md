@@ -73,18 +73,6 @@ project-root/
 
 ## Running the Application
 
-### Option 1: Using the start script
-
-The easiest way to run both frontend and backend is using the start script:
-
-```bash
-./start.sh
-```
-
-This script starts both the backend server and the frontend development server concurrently.
-
-### Option 2: Manual startup
-
 #### Start the Backend
 
 ```bash
@@ -102,12 +90,21 @@ npm start
 ## Accessing the Application
 
 - Frontend: http://localhost:3000
-- Backend API: http://localhost:8000
+- Backend API: http://localhost:8001
 
 ## API Endpoints
 
 - `GET /`: Health check endpoint
 - `POST /chat`: Main endpoint for sending messages and receiving responses
+
+
+### Demo
+
+Check out a demo of the application in action:
+
+[Watch Demo Video](demo.mov)
+
+
 
 ## License
 
